@@ -8,9 +8,9 @@
 
 <br>
 
-![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![YOLO](https://img.shields.io/badge/YOLO-Computer%20Vision-111111?style=for-the-badge)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge\&logo=opencv\&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
 </div>
@@ -25,13 +25,13 @@ The project uses **YOLO-based object detection** to identify objects and generat
 
 The system is designed with a focus on:
 
-* ⚡ Fast inference
-* 🎯 Accurate object detection
-* 📷 Image and video processing
-* 🎥 Real-time camera detection
-* 🧠 Deep-learning-based vision
-* 📊 Detection analytics
-* 🚀 Easy deployment
+- ⚡ Fast inference
+- 🎯 Accurate object detection
+- 📷 Image and video processing
+- 🎥 Real-time camera detection
+- 🧠 Deep-learning-based vision
+- 📊 Detection analytics
+- 🚀 Easy deployment
 
 ---
 
@@ -102,10 +102,10 @@ Optimized YOLO inference enables practical real-time computer-vision application
 
 Detection results can be displayed with:
 
-* Bounding boxes
-* Class names
-* Confidence scores
-* Detection counts
+- Bounding boxes
+- Class names
+- Confidence scores
+- Detection counts
 
 ---
 
@@ -115,7 +115,7 @@ Detection results can be displayed with:
 | -------------- | --------------------------------- |
 | 🐍 **Python**  | Core programming language         |
 | 🧠 **YOLO**    | Object detection model            |
-| 👁️ **OpenCV** | Image/video processing            |
+| 👁️ **OpenCV**  | Image/video processing            |
 | 🔥 **PyTorch** | Deep-learning framework           |
 | 📊 **NumPy**   | Numerical processing              |
 | 📓 **Jupyter** | Experiments and model development |
@@ -180,10 +180,10 @@ Example training command:
 
 ```bash
 yolo detect train \
-    data=datasets/data.yaml \
-    model=yolo11n.pt \
-    epochs=100 \
-    imgsz=640
+  data=datasets/data.yaml \
+  model=yolo11n.pt \
+  epochs=100 \
+  imgsz=640
 ```
 
 > Replace the model name and training parameters with the configuration used by your project.
@@ -196,8 +196,8 @@ A trained model can be used to perform inference on an image:
 
 ```bash
 yolo detect predict \
-    model=models/best.pt \
-    source="images/test-images/example.jpg"
+  model=models/best.pt \
+  source="images/test-images/example.jpg"
 ```
 
 The resulting image contains the detected objects with their corresponding bounding boxes and confidence scores.
@@ -210,8 +210,8 @@ For webcam-based detection:
 
 ```bash
 yolo detect predict \
-    model=models/best.pt \
-    source=0
+  model=models/best.pt \
+  source=0
 ```
 
 Where:
@@ -258,8 +258,8 @@ Example validation command:
 
 ```bash
 yolo detect val \
-    model=models/best.pt \
-    data=datasets/data.yaml
+  model=models/best.pt \
+  data=datasets/data.yaml
 ```
 
 ---
@@ -288,7 +288,7 @@ Example:
 | --------- | --------------------------- |
 | 📷 Image  | 🎯 Detected Objects         |
 | 🎥 Video  | 🎯 Frame-by-frame Detection |
-| 📹 Webcam | ⚡ Real-time Detection       |
+| 📹 Webcam | ⚡ Real-time Detection      |
 
 ---
 
@@ -381,33 +381,33 @@ These values can be adjusted depending on the project's requirements and availab
 
 This type of computer-vision system can be adapted for:
 
-* 🚗 Vehicle detection
-* 👤 Person detection
-* 🏭 Industrial inspection
-* 🛡️ Security monitoring
-* 🏥 Medical image analysis
-* 🌾 Agricultural monitoring
-* 📦 Object counting
-* 🚦 Traffic monitoring
-* 🏗️ Construction safety
-* 🏫 Smart-campus applications
+- 🚗 Vehicle detection
+- 👤 Person detection
+- 🏭 Industrial inspection
+- 🛡️ Security monitoring
+- 🏥 Medical image analysis
+- 🌾 Agricultural monitoring
+- 📦 Object counting
+- 🚦 Traffic monitoring
+- 🏗️ Construction safety
+- 🏫 Smart-campus applications
 
 ---
 
 # 🔮 Future Improvements
 
-* [ ] Custom web dashboard
-* [ ] Real-time analytics
-* [ ] Object counting
-* [ ] Object tracking
-* [ ] Multi-camera support
-* [ ] Automated alerts
-* [ ] GPU optimization
-* [ ] ONNX deployment
-* [ ] Docker support
-* [ ] Cloud deployment
-* [ ] Mobile application
-* [ ] Model performance dashboard
+- [ ] Custom web dashboard
+- [ ] Real-time analytics
+- [ ] Object counting
+- [ ] Object tracking
+- [ ] Multi-camera support
+- [ ] Automated alerts
+- [ ] GPU optimization
+- [ ] ONNX deployment
+- [ ] Docker support
+- [ ] Cloud deployment
+- [ ] Mobile application
+- [ ] Model performance dashboard
 
 ---
 
@@ -439,17 +439,17 @@ Web / Cloud Deployment
 
 This project demonstrates practical experience with:
 
-* Computer Vision
-* Object Detection
-* YOLO architectures
-* Deep Learning
-* PyTorch
-* OpenCV
-* Image Processing
-* Model Training
-* Model Evaluation
-* Real-Time AI
-* Python Development
+- Computer Vision
+- Object Detection
+- YOLO architectures
+- Deep Learning
+- PyTorch
+- OpenCV
+- Image Processing
+- Model Training
+- Model Evaluation
+- Real-Time AI
+- Python Development
 
 ---
 
@@ -471,14 +471,14 @@ If you use **Ultralytics software or pretrained models**, review the applicable 
 
 ### 💻 Areas of Interest
 
-* 🤖 Artificial Intelligence & Machine Learning
-* 🧠 Generative AI & LLM Applications
-* 👁️ Computer Vision
-* 🔎 Retrieval-Augmented Generation
-* 🌐 Full-Stack Web Development
-* 🐍 Python Development
-* ⚙️ Backend & API Development
-* ☁️ Cloud & Modern Software Development
+- 🤖 Artificial Intelligence & Machine Learning
+- 🧠 Generative AI & LLM Applications
+- 👁️ Computer Vision
+- 🔎 Retrieval-Augmented Generation
+- 🌐 Full-Stack Web Development
+- 🐍 Python Development
+- ⚙️ Backend & API Development
+- ☁️ Cloud & Modern Software Development
 
 ### 📫 Connect
 
